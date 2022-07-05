@@ -1,0 +1,175 @@
+body {
+  /* ff 3.6+ */
+  background: -moz-linear-gradient(
+    181deg,
+    #fff0f6 26%,
+    rgba(205, 156, 178, 1) 88%
+  );
+
+  /* safari 5.1+,chrome 10+ */
+  background: -webkit-linear-gradient(
+    181deg,
+    #fff0f6 26%,
+    rgba(205, 156, 178, 1) 88%
+  );
+
+  /* opera 11.10+ */
+  background: -o-linear-gradient(
+    181deg,
+    #fff0f6 26%,
+    rgba(205, 156, 178, 1) 88%
+  );
+
+  /* ie 6-9 */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#CD9CB2', endColorstr='#FFE1EE', GradientType=1 );
+
+  /* ie 10+ */
+  background: -ms-linear-gradient(
+    181deg,
+    #fff0f6 26%,
+    rgba(205, 156, 178, 1) 88%
+  );
+
+  /* global 94%+ browsers support */
+  background: linear-gradient(181deg, #fff0f6 26%, rgba(205, 156, 178, 1) 88%);
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+@media (max-width: 800px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .center {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1em;
+    width: 90%;
+    left: 5%;
+  }
+
+  .centerBottom {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 80vh;
+    width: 90%;
+    left: 5%;
+  }
+
+  .button {
+    margin-top: 4%;
+    margin-right: 3%;
+    position: relative;
+    font-family: TitleFont;
+    font-size: 3em;
+    padding-top: 3%;
+    border-radius: 10%;
+    border-color: #cafde6;
+    background-color: #fff0f6;
+  }
+}
+
+@media (min-width: 810px) {
+  /* CSS that should be displayed if width is equal to or less than 800px goes here */
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    padding-top: 1em;
+    width: 50%;
+    left: 25%;
+  }
+
+  .container {
+    margin-top: 10rem;
+    z-index: 99;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    left: 8%;
+  }
+
+  .button {
+    margin-top: 4%;
+    margin-right: 3%;
+    position: relative;
+    font-family: TitleFont;
+    font-size: 3em;
+    border-radius: 10%;
+    padding: 1%;
+    border-color: #cafde6;
+    background-color: #fff0f6;
+  }
+ 
+
+  .centerBottom {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    z-index: 1;
+    padding-top: 70vh;
+    width: 50%;
+    left: 25%;
+  }
+}
+
+@font-face {
+  font-family: TitleFont;
+  src: url(assets/HandmadeSignature.ttf);
+}
+
+@font-face {
+  font-family: EventFont;
+  src: url(assets/CaviarDreams.ttf);
+}
+
+.title {
+  font-family: TitleFont;
+  font-size: 5em;
+  display: block;
+  text-align: center;
+}
+
+.date {
+  font-family: EventFont;
+  font-size: 2em;
+  display: block;
+}
+
+a {
+  color: #000;
+}
+
+.container {
+  padding-top: 8em;
+  z-index: 99;
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.line {
+  width: 80vw;
+  height: 20px;
+  border-bottom: 1px solid #cafde6;
+  position: relative;
+  left: 10%;
+}
+
+.message {
+  position: relative;
+  padding-top: 10%;
+  font-family: EventFont;
+  font-size: large;
+}
